@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+    position: absolute ;
+   
+}
+
+.logo{
+    position: relative;
+   
+}
+
+.logo .logo_left img{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    width: 30%;
+}
+.logo .logo_right img{
+    margin-top: 5px;
+    width: 30%;
+}
+
+.menu{
+    margin-top: 265px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    border-right: 1px solid #e0d8d8;
+    border-bottom: 1px solid #e0dddd;
+    font-size: 15px;
+
+}
+
+.menu ul li a:hover{
+    background: #091d06;
+    color: #e0d8d8;
+}
+
+.titlepart .cardhero{
+    display: inline-flex;
+    gap: 10px 10px;
+    margin-top: 20px;
+}
+
+.titlepart .cardhero .card img{
+    width: 30%;
+    position: relative;
+    left: 40%;
+    top: -25px;
+    align-items: center;
+}
+
+.foot{
+    background: rgb(34, 31, 31);
+    margin-top: 50px;
+}
+
+.foot .foot-main{
+    color: #e0d8d8;
+    
+    
+}
+
+.foot .foot-main .f-top ul li{
+    display: inline-gid;
+    list-style: none;
+    left: 30px;
+    
+    
+}
+.foot .foot-main .right-f ul li{
+    display: inline-gid;
+    list-style: circle;
+}
+.foot .foot-main .right-f ul li:hover{
+    font-size: 22px;
+    color: #000000;
+}
+
+.f-bottom{
+    background: #000;
+    color: rgb(112, 112, 112);
+    font-size: 25px;
+    
+}
+.f-bottom:hover{
+    color: #fcf9f9;
+
+}
+
+
+
+
+
